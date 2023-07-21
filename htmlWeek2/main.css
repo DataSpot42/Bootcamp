@@ -1,0 +1,19 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+body {
+    background-color: rgb(6, 235, 228);
+}
+
+
+h4 {
+    background-color: aquamarine;
+    font-size: 10px;
+}
+#intro {
+    font-weight: bolder;
+    font-size: 100px;
+    background-color: blueviolet;
+    text-align: center;
+}

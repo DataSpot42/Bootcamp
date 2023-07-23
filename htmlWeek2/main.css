@@ -1,70 +1,131 @@
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 body {
     background-image: url(https://static.wixstatic.com/media/59a075_0836a142070441b9a940e3a31497a8ba~mv2.gif);
     color: white;
-    text-align:center;  /* set the look of page body */
- }
+    text-align: center;
+    /* set the look of page body */
+}
 
 
 h4 {
     background-color: rgb(26, 14, 65);
     width: 40%;
     font-size: 20px;
-    color:beige;
-    text-align:left;
-    margin-left:auto;
-    margin-right:auto;   /*parameters for h4*/
+    color: beige;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    /*parameters for h4*/
 }
+
 #intro {
     font-weight: bolder;
     font-size: 100px;
     background-image: url(https://i.gifer.com/3Ayf.gif);
-    margin-left:auto;
-    margin-right:auto;
+    margin-left: auto;
+    margin-right: auto;
     width: 75%;
     border: 5px;
-    border-color: blue;
-    border-style:solid;  /* set how intro id will look */
+    border-color: rgb(123, 123, 212);
+    border-style: solid;
+    border-radius: 50px;
+    box-shadow: 10px 10px 10px #d1d4fa55;
+    /* set how title banner will look */
 }
-a:link {color:#798eda}
-a:visited {color:rgb(95, 76, 212)}
-a:hover {color:rgb(185, 185, 238)}
-a:active {color:rgb(23, 139, 139)}  /*set hyperlink colours*/
+
+a:link {
+    color: #798eda
+}
+
+a:visited {
+    color: rgb(95, 76, 212)
+}
+
+a:hover {
+    color: rgb(185, 185, 238)
+}
+
+a:active {
+    color: rgb(23, 139, 139)
+}
+
+/*set hyperlink colours*/
 
 .lists {
-    width:30%;
+    width: 30%;
     font-size: 20px;
-    text-align:left;
-    margin:auto;
-    font-style:italic;
+    text-align: left;
+    margin: auto;
+    font-style: italic;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color:deepskyblue;  /* set parameters for lists class */
-    padding: 10px ;
+    color: deepskyblue;
+    padding: 10px;
     border: 1px solid aquamarine;
     background: radial-gradient(rgb(11, 31, 206) 50%, rgb(125, 125, 187) 100%);
     box-shadow: 10px 10px 10px #7FFFD455;
-    border-radius:25px;
+    border-radius: 25px;
+    /* set parameters for lists class */
 }
+
 img {
-  
-  border: 10px solid #fff;
-  background: white;
-  box-shadow: 10px 10px 5px #EEEEEE75;
-  border-radius:25px;    /* set paramiters for imagaes */
+
+    border: 10px solid #fff;
+    background: white;
+    box-shadow: 10px 10px 5px #EEEEEE75;
+    border-radius: 25px;
+    /* set paramiters for imagaes */
 }
+
 hr {
     background-color: blue;
     height: 3px;
     width: 30%;
-    border-color:aqua;
+    border-color: aqua;
 }
+
 .lineshadow {
     border: 1px solid aquamarine;
     background: blue;
     box-shadow: 5px 5px 5px #7FFFD455;
-    border-radius:50px;
+    border-radius: 50px;
+    /* set parameters for a seperating line */
+}
+
+.sidebysideL {
+    display: inline-block;
+    text-align: left;
+    width: 30%;
+    font-size: 20px;
+    margin: auto;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: deepskyblue;
+    padding: 10px;
+    border: 1px solid aquamarine;
+    background: radial-gradient(rgb(11, 31, 206) 50%, rgb(125, 125, 187) 100%);
+    box-shadow: 10px 10px 10px #7FFFD455;
+    border-radius: 25px;
+    /* set parameters for sidebyside class (same as lists but puts blocks sibe by side */
+}
+
+.sidebysideR {
+    display: inline-block;
+    text-align: left;
+    width: 30%;
+    font-size: 20px;
+    margin-left: 40px;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(190, 241, 223);
+    padding: 10px;
+    border: 1px solid rgb(3, 95, 7);
+    background: radial-gradient(rgb(3, 119, 19) 50%, rgb(200, 243, 204) 100%);
+    box-shadow: 10px 10px 10px #93d49855;
+    border-radius: 25px;
+    /* set parameters for sidebyside class (same as lists but puts blocks sibe by side */
 }
 
 /* FOOTER */

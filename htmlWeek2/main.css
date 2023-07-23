@@ -34,16 +34,25 @@ a:hover {color:rgb(185, 185, 238)}
 a:active {color:rgb(23, 139, 139)}  /*set hyperlink colours*/
 
 .lists {
+    width:30%;
+    font-size: 20px;
+    text-align:left;
+    margin:auto;
     font-style:italic;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color:deepskyblue;  /* set parameters for lists class */
     padding: 10px ;
+    border: 1px solid aquamarine;
+    background: radial-gradient(rgb(11, 31, 206) 50%, rgb(125, 125, 187) 100%);
+    box-shadow: 10px 10px 10px #7FFFD455;
+    border-radius:25px;
 }
 img {
-    padding: 5px;
-    border: 5px;
-    color: aquamarine;
-    border-style: solid;    /* set paramiters for imagaes */
+  
+  border: 10px solid #fff;
+  background: white;
+  box-shadow: 10px 10px 5px #EEEEEE75;
+  border-radius:25px;    /* set paramiters for imagaes */
 }
 hr {
     background-color: blue;
@@ -51,6 +60,13 @@ hr {
     width: 30%;
     border-color:aqua;
 }
+.lineshadow {
+    border: 1px solid aquamarine;
+    background: blue;
+    box-shadow: 5px 5px 5px #7FFFD455;
+    border-radius:50px;
+}
+
 /* FOOTER */
 footer {
     font-size: 20px;

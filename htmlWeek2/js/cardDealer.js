@@ -28,4 +28,8 @@ for (i = 0 ; i < suitsA.length ; i++) {
 
 
 console.log(`My hand is ${hand}`)  //outputs the hand
+function carddealer() {
+   alert (`The hand is ${hand}`);
+}
+
 

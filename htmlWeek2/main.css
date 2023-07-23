@@ -127,7 +127,50 @@ hr {
     border-radius: 25px;
     /* set parameters for sidebyside class (same as lists but puts blocks sibe by side */
 }
-
+.button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background: radial-gradient(rgb(0, 33, 244) 50%, rgb(200, 243, 204) 100%);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 10px 9px 10px #83c7d6;
+  }
+  
+  .button:hover {background-color: #3e8e41}
+  
+  .button:active {
+    background-color: rgb(0, 33, 244);
+    box-shadow: 0 5px 10px #83c7d6;
+    transform: translateY(4px);
+  }
+  .button2 {
+    display: inline-block;
+    padding: 15px 15px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background: radial-gradient(rgb(0, 33, 244) 50%, rgb(200, 243, 204) 100%);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 10px 9px 10px #83c7d6;
+  }
+  
+  .button2:hover {background-color: #3e8e41}
+  
+  .button2:active {
+    background-color: rgb(0, 33, 244);
+    box-shadow: 0 5px 10px #83c7d6;
+    transform: translateY(4px);
+  }  
 /* FOOTER */
 footer {
     font-size: 20px;

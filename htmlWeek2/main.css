@@ -11,7 +11,10 @@ body {
     /* set the look of page body with a background image */
 }
 .navbar-container {
-  display: flex;
+    display: -moz-box;
+    display:flex;
+    display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -webkit-flex;
   min-height: 20px;
   flex-wrap: wrap;
   justify-content:space-between;
@@ -22,7 +25,10 @@ body {
   
 }
 .box {
-  display: flex;
+  display: -moz-box;
+  display:flex;
+  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -webkit-flex;
   color: white;
   font-size: 30px;
   font-family: sans-serif;

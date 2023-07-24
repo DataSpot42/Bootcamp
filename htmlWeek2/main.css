@@ -6,8 +6,50 @@ body {
     background-image: url(https://static.wixstatic.com/media/59a075_0836a142070441b9a940e3a31497a8ba~mv2.gif);
     color: white;
     text-align: center;
+    margin-top: 0 px;
+    top: 0px;
     /* set the look of page body with a background image */
 }
+.navbar-container {
+  display: flex;
+  min-height: 20px;
+  flex-wrap: wrap;
+  justify-content:space-between;
+  align-items: center;
+  position:fixed;
+  top: 0 ;
+  width: 100%;
+  
+}
+.box {
+  display: flex;
+  color: white;
+  font-size: 30px;
+  font-family: sans-serif;
+  text-align: center;
+  font-weight: 100;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+  margin: auto;
+  height: 10px;
+  width: 100px;
+  border: 10px;
+  flex-grow: 1;
+  flex-shrink: 1;
+  a:link { color: white;};
+  
+}  
+.box1 { background: radial-gradient(rgb(127, 134, 196) 50%, rgb(236, 236, 240) 100%); }
+.box2 { background: radial-gradient(rgb(81, 220, 111) 50%, rgb(236, 236, 240) 100%); }
+.box3 { background: radial-gradient(rgb(221, 60, 186) 50%, rgb(236, 236, 240) 100%); }
+.box4 { background: radial-gradient(rgb(143, 171, 18) 50%, rgb(236, 236, 240) 100%); }
+.box5 { background: radial-gradient(rgb(168, 23, 23) 50%, rgb(236, 236, 240) 100%); }
+.box6 { background: radial-gradient(rgb(127, 20, 185) 50%, rgb(236, 236, 240) 100%);}
+.box7 { background: radial-gradient(rgb(104, 209, 13) 50%, rgb(236, 236, 240) 100%); }
+.box8 { background: radial-gradient(rgb(153, 8, 49) 50%, rgb(236, 236, 240) 100%); }
+.box9 { background: radial-gradient(rgb(208, 126, 18) 50%, rgb(236, 236, 240) 100%); }
+.box10 { background: radial-gradient(rgb(3, 14, 121) 50%, rgb(236, 236, 240) 100%);}
 
 
 h4 {
@@ -35,13 +77,28 @@ h4 {
     box-shadow: 10px 10px 10px #d1d4fa55;
     /* set how title banner will look */
 }
+a.boxlink { text-shadow: -1px -1px #000000;}
+a.boxlink:link {
+    color: #ffffff; text-decoration: none;
+}
 
+a.boxlink:visited {
+    color: rgb(229, 220, 240); text-decoration: none;
+}
+
+a.boxlink:hover {
+    color: rgb(210, 209, 237); text-decoration: none; transform: scale3d(1.2,1.2,3);
+}
+
+a.boxlink:active {
+    color: rgb(241, 171, 171); text-decoration: none; 
+}
 a:link {
     color: #798eda
 }
 
 a:visited {
-    color: rgb(95, 76, 212)
+    color: rgb(174, 165, 232)
 }
 
 a:hover {

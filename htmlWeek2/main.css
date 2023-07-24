@@ -3,60 +3,130 @@
 }
 
 body {
-    background-image: url(https://static.wixstatic.com/media/59a075_0836a142070441b9a940e3a31497a8ba~mv2.gif);
+    background-image: url(https://thumbs.gfycat.com/GregariousEssentialElver-size_restricted.gif);
     color: white;
     text-align: center;
     margin-top: 0 px;
     top: 0px;
     /* set the look of page body with a background image */
 }
-.navbar-container {
-    display: -moz-box;
-    display:flex;
-    display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
-    display: -webkit-flex;
-  min-height: 20px;
-  flex-wrap: wrap;
-  justify-content:space-between;
-  align-items: center;
-  position:fixed;
-  top: 0 ;
-  width: 100%;
-  
-}
-.box {
-  display: -moz-box;
-  display:flex;
-  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
-  display: -webkit-flex;
-  color: white;
-  font-size: 30px;
-  font-family: sans-serif;
-  text-align: center;
-  font-weight: 100;
-  justify-content: center;
-  align-items: center;
-  padding: 20px 0;
-  margin: auto;
-  height: 10px;
-  width: 100px;
-  border: 10px;
-  flex-grow: 1;
-  flex-shrink: 1;
-  a:link { color: white;};
-  
-}  
-.box1 { background: radial-gradient(rgb(127, 134, 196) 50%, rgb(236, 236, 240) 100%); }
-.box2 { background: radial-gradient(rgb(81, 220, 111) 50%, rgb(236, 236, 240) 100%); }
-.box3 { background: radial-gradient(rgb(221, 60, 186) 50%, rgb(236, 236, 240) 100%); }
-.box4 { background: radial-gradient(rgb(143, 171, 18) 50%, rgb(236, 236, 240) 100%); }
-.box5 { background: radial-gradient(rgb(168, 23, 23) 50%, rgb(236, 236, 240) 100%); }
-.box6 { background: radial-gradient(rgb(127, 20, 185) 50%, rgb(236, 236, 240) 100%);}
-.box7 { background: radial-gradient(rgb(104, 209, 13) 50%, rgb(236, 236, 240) 100%); }
-.box8 { background: radial-gradient(rgb(153, 8, 49) 50%, rgb(236, 236, 240) 100%); }
-.box9 { background: radial-gradient(rgb(208, 126, 18) 50%, rgb(236, 236, 240) 100%); }
-.box10 { background: radial-gradient(rgb(3, 14, 121) 50%, rgb(236, 236, 240) 100%);}
 
+.mainNavBar-container {
+    display: flex;
+    flex-direction: row;
+    min-height: 10px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: left;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #303030;
+}
+
+.mainNavItem {
+    display: flex;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: 100;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    margin: auto;
+    height: 5px;
+    width: 100px;
+    border: 10px;
+    border-radius: 20px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    background: radial-gradient(rgb(7, 7, 8) 40%, rgb(69, 69, 69) 70%, rgb(231, 231, 234) 100%);
+}
+
+.MainNavExample {
+    display: inline-block;
+    background: radial-gradient(rgb(7, 7, 8) 60%, rgb(55, 55, 56) 100%);
+    width: 300px;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+
+.bcNavBar-container {
+    display: flex;
+    min-height: 10px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+}
+
+.box {
+    display: flex;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: 100;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    margin: auto;
+    height: 10px;
+    width: 100px;
+    border: 10px;
+    flex-grow: 1;
+    flex-shrink: 1;
+
+}
+
+.box1 {
+    background: radial-gradient(rgb(127, 134, 196) 50%, rgb(236, 236, 240) 100%);
+}
+
+.box2 {
+    background: radial-gradient(rgb(81, 220, 111) 50%, rgb(236, 236, 240) 100%);
+}
+
+.box3 {
+    background: radial-gradient(rgb(221, 60, 186) 50%, rgb(236, 236, 240) 100%);
+}
+
+.box4 {
+    background: radial-gradient(rgb(143, 171, 18) 50%, rgb(236, 236, 240) 100%);
+}
+
+.box5 {
+    background: radial-gradient(rgb(168, 23, 23) 50%, rgb(236, 236, 240) 100%);
+}
+
+.box6 {
+    background: radial-gradient(rgb(127, 20, 185) 50%, rgb(236, 236, 240) 100%);
+}
+
+.box7 {
+    background: radial-gradient(rgb(104, 209, 13) 50%, rgb(236, 236, 240) 100%);
+}
+
+.box8 {
+    background: radial-gradient(rgb(153, 8, 49) 50%, rgb(236, 236, 240) 100%);
+}
+
+.box9 {
+    background: radial-gradient(rgb(208, 126, 18) 50%, rgb(236, 236, 240) 100%);
+}
+
+.box10 {
+    background: radial-gradient(rgb(3, 14, 121) 50%, rgb(236, 236, 240) 100%);
+}
+
+.bannertext {
+    font-size: 15px;
+}
 
 h4 {
     background-color: rgb(26, 14, 65);
@@ -71,11 +141,12 @@ h4 {
 
 #intro {
     font-weight: bolder;
-    font-size: 100px;
+    font-size: 70px;
     background-image: url(https://i.gifer.com/3Ayf.gif);
     margin-left: auto;
     margin-right: auto;
-    width: 75%;
+    margin-top: 100px;
+    width: 65%;
     border: 5px;
     border-color: rgb(123, 123, 212);
     border-style: solid;
@@ -83,22 +154,32 @@ h4 {
     box-shadow: 10px 10px 10px #d1d4fa55;
     /* set how title banner will look */
 }
-a.boxlink { text-shadow: -1px -1px #000000;}
+
+a.boxlink {
+    text-shadow: -1px -1px #000000;
+}
+
 a.boxlink:link {
-    color: #ffffff; text-decoration: none;
+    color: #ffffff;
+    text-decoration: none;
 }
 
 a.boxlink:visited {
-    color: rgb(229, 220, 240); text-decoration: none;
+    color: rgb(229, 220, 240);
+    text-decoration: none;
 }
 
 a.boxlink:hover {
-    color: rgb(210, 209, 237); text-decoration: none; transform: scale3d(1.2,1.2,3);
+    color: rgb(210, 209, 237);
+    text-decoration: none;
+    transform: scale3d(1.2, 1.2, 3);
 }
 
 a.boxlink:active {
-    color: rgb(241, 171, 171); text-decoration: none; 
+    color: rgb(241, 171, 171);
+    text-decoration: none;
 }
+
 a:link {
     color: #798eda
 }

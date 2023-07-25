@@ -5,8 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Week 3</title>
-    <link rel="stylesheet" href="main.css"> <!--Links external style sheet to page-->
-
+    <link rel="stylesheet" href="main.css"> <!--Links main external style sheet to page-->
+    <link rel="stylesheet" href="flexdemo.css">    <!--Adds a special stle sheet for this page--> 
+    <script>
+        var presscheck = 0;
+    </script>   
 </head>
 
 <body>
@@ -32,4 +35,38 @@
                 guide we are working from</a>
             <h1></h1>
     </div>
+    
+
+    <div>
+        <h3>Flexbox is a layout tool, let's see how a few of the features work:</h3>
+        <h4> We want to make 3 boxes, colour them and distrubute them evenly across the page below (no matter what size the window is but with a minimum size).  With flexbox it's easy</h4>
+        <button onclick="flexIt1()">Try it</button>
+    </div>
+    <div class="demo1-container">
+        <br>
+        
+        <p id="nostyle1">Box A</p>
+        <p id="nostyle2">Box B</p>
+        <p id="nostyle3">Box C</p>
+
+    </div>
+
+    <script>
+        function flexIt1() {
+           var element1 = document.getElementById("nostyle1");
+           element1.classList.toggle("flexStyle1");
+           var element1 = document.getElementById("nostyle2");
+           element1.classList.toggle("flexStyle2");
+           var element1 = document.getElementById("nostyle3");
+           element1.classList.toggle("flexStyle3");
+           const x = `<h3>We have a container for the 3 items and figures for the boxes</h3> <img src="images/flexcode1.jpg" height=400 width=200>`;
+           if (presscheck == 0) {
+            presscheck = presscheck +1;
+  
+           document.body.innerHTML += x;
+           }
+           
+        
+    }
+        </script>
 </body>

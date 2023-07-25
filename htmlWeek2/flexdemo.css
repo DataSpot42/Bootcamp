@@ -1,0 +1,80 @@
+#nostyle1 {
+    
+    width: 100px;
+}
+#nostyle2 {
+    
+    width: 100px;
+}
+#nostyle3 {
+    
+    width: 100px;
+}
+.demo1-container {
+    display: flex;
+    flex-direction: row;
+    min-height: 10px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: left;
+    
+    width: 100%;
+    background-color: #303030;
+}
+.flexStyle1 {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: 100;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    margin: auto;
+    height: 10px;
+    width: 100px;
+    border: 10px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    background-color: #81da79;
+}
+.flexStyle2 {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: 100;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    margin: auto;
+    height: 10px;
+    width: 100px;
+    border: 10px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    background-color: #da79bb;
+}
+.flexStyle3 {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: 100;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    margin: auto;
+    height: 10px;
+    width: 100px;
+    border: 10px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    background-color: #f80b0b;
+}

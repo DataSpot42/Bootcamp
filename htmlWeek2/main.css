@@ -269,6 +269,7 @@ hr {
 .sidebysideR {
     display: inline-block;
     text-align: left;
+    vertical-align: top;
     width: 30%;
     font-size: 20px;
     margin-left: 40px;

@@ -53,6 +53,7 @@ body {
     display: inline-block;
     background: radial-gradient(rgb(7, 7, 8) 60%, rgb(55, 55, 56) 100%);
     width: 300px;
+    margin: 0;
     font-size: 30px;
     font-family: sans-serif;
 }

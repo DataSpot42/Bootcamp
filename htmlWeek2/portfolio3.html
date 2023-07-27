@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Week 3</title>
     <link rel="stylesheet" href="main.css"> <!--Links main external style sheet to page-->
-    <link rel="stylesheet" href="flexdemo.css">    <!--Adds a special stle sheet for this page--> 
+    <link rel="stylesheet" href="flexdemo.css"> <!--Adds a special stle sheet for this page-->
     <script>
         var presscheck = 0;
-    </script>   
+    </script>
 </head>
 
 <body>
@@ -30,21 +30,24 @@
         <br>
         <br>
 
-        <h1>This week is Flexbox Week!</h1>
-        <h1><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-background" target="_blank">Here is the
+        <h1>This week we have been working on flexbox commands</h1>
+        <h3><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-background" target="_blank">Here is the
                 guide we are working from</a>
-            <h1></h1>
+        </h3>
     </div>
-    
+
 
     <div>
         <h3>Flexbox is a layout tool, let's see how a few of the features work:</h3>
-        <h4> We want to make 3 boxes, colour them and distrubute them evenly across the page below (no matter what size the window is but with a minimum size).  With flexbox it's easy</h4>
-        <button onclick="flexIt1()">Try it</button>
+        <h4 class="lists"> We want to make 3 boxes, colour them and distrubute them across the page below with Box 2
+            being twice the size of the rest (no matter what size the window is but with a minimum size). With flexbox
+            it's easy</h4>
+        <br><button class="button" onclick="flexIt1()">Press for your flexable friend!</button><br>
     </div>
+    <br>
     <div class="demo1-container">
         <br>
-        
+
         <p id="nostyle1">Box A</p>
         <p id="nostyle2">Box B</p>
         <p id="nostyle3">Box C</p>
@@ -53,20 +56,30 @@
 
     <script>
         function flexIt1() {
-           var element1 = document.getElementById("nostyle1");
-           element1.classList.toggle("flexStyle1");
-           var element1 = document.getElementById("nostyle2");
-           element1.classList.toggle("flexStyle2");
-           var element1 = document.getElementById("nostyle3");
-           element1.classList.toggle("flexStyle3");
-           const x = `<h3>We have a container for the 3 items and figures for the boxes</h3> <img src="images/flexcode1.jpg" height=400 width=200>`;
-           if (presscheck == 0) {
-            presscheck = presscheck +1;
-  
-           document.body.innerHTML += x;
-           }
-           
-        
-    }
-        </script>
+            var element1 = document.getElementById("nostyle1");
+            element1.classList.toggle("flexA");
+            element1.classList.toggle("flexStyle1");
+            var element1 = document.getElementById("nostyle2");
+            element1.classList.toggle("flexA");
+            element1.classList.toggle("flexStyle2");
+            var element1 = document.getElementById("nostyle3");
+            element1.classList.toggle("flexA");
+            element1.classList.toggle("flexStyle3");
+            const x = `<h3>We have a container for the 3 items and a style for the boxes</h3> <img src="images/flexcode1.jpg" height=400 width=200>
+           <div class="sidebysideR"> <ul> 
+            <li>flex-direction: row  -ensures the boxes go left to right (add -reverse to fo right to left or replace with column to go top to bottom)</li>
+            <li>justify-content: space-betweeen -evenly distributes the items in the containter 
+            <li>flex-grow: 1 -gives the ability to items to grow to fit the container (1 for equal spaced items - setting Box 2 to 2 makes it twice as big as the rest )</li>
+            <li>flex-shrink: 1 - allows items to shrink to fit</li>
+            <li>
+            </ul></div>`;
+            if (presscheck == 0) {
+                presscheck = presscheck + 1;
+
+                document.body.innerHTML += x;
+            }
+
+
+        }
+    </script>
 </body>

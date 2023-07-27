@@ -11,10 +11,14 @@ body {
     /* set the look of page body with a background image */
 }
 
+.navDiv {
+    width: 100%;
+}
+
 .mainNavBar-container {
     display: flex;
     flex-direction: row;
-    min-height: 10px;
+    min-height: 20px;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: left;
@@ -35,8 +39,9 @@ body {
     align-items: center;
     padding: 10px 0;
     margin: auto;
-    height: 5px;
-    width: 100px;
+    height: 9px;
+
+    min-width: 150px;
     border: 10px;
     border-radius: 20px;
     flex-grow: 1;
@@ -128,6 +133,11 @@ body {
     font-size: 15px;
 }
 
+#time,
+#week {
+    font-size: 30px;
+}
+
 
 h4 {
     background-color: rgb(26, 14, 65);
@@ -161,7 +171,7 @@ a.boxlink {
 }
 
 a.boxlink:link {
-    color: #ffffff;
+    color: #d1d1d1;
     text-decoration: none;
 }
 
@@ -171,7 +181,7 @@ a.boxlink:visited {
 }
 
 a.boxlink:hover {
-    color: rgb(210, 209, 237);
+    color: #ffffff;
     text-decoration: none;
     transform: scale3d(1.2, 1.2, 3);
 }

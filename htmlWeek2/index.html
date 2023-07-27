@@ -12,12 +12,10 @@
     <nav class="mainNavBar-container">
 
         <p class="mainNavItem"><a class="boxlink" href="index.html">Home</a></p>
-        <p class="mainNavItem"><a class="boxlink" href="portfolio2.html">Bootcamp Portfolio</a></p>
+        <p class="mainNavItem"><a class="boxlink" href="portfolio2.html">Portfolio</a></p>
         <p class="mainNavItem"><a class="boxlink" href="contact.html">Contact Me</a></p>
+        <p class="mainNavItem"><a class="boxlink" href="workshops.html">Assignments</a></p>
         <p class="mainNavItem">TBC</p>
-        <p class="mainNavItem">TBC</p>
-
-
     </nav>
     <div>
         <br>
@@ -32,11 +30,41 @@
 
     </div>
     <div>
-        <h2>The Bootcamp is for 12 weeks as I progress I will be adding pages to this site to demonstrate my progress.
-        </h2>
+        <h2>The Bootcamp started on 10th July 2023 and lasts 12 weeks</h2>
+        <h2>I will be adding pages to this site to demonstrate my progress.</h2>
+        <!-- This next section displays the time and what week I am on-->
+        <script type="text/javascript" charset="utf-8">
+            let a;
+            let time;
+            let week = 0;
+            let month = 0;
+            let t2 = 0;
+            let t1 = 0;
+            let start = 0;
+            setInterval(() => {
+                a = new Date();
+                month = a.getMonth() + 1;
+                time = a.getDate() + '/' + month + '/' + a.getFullYear() + "  " + String(a.getHours()).padStart(2, "0") + ':' + String(a.getMinutes()).padStart(2, "0") + ':' + String(a.getSeconds()).padStart(2, "0");
+                let timeStamp = 'The current date and time is ' + time;
+                document.getElementById('time').innerHTML = timeStamp;
+                start = new Date("2023-07-10");
+                t2 = a.getTime();
+                t1 = start.getTime();
+                week = (Math.floor((t2 - t1) / (24 * 3600 * 1000 * 7)) + 1);
+                let output = ' so I am currently on Week ' + week;
 
+                document.getElementById('week').innerHTML = output;
+            }, 1000);
+
+
+            function weekFunc(month) {
+                document.write(month);
+            }
+        </script>
+        <span id="time"></span>
+        <span id="week"></span>
         <h2>Select the <p class="MainNavExample">Bootcamp Portfolio</p> section in the Nav Bar to see how I have been
-            getting on with the course.</h2>
+            getting on.</h2>
     </div>
     <div>
         <p>

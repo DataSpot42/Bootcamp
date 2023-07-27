@@ -1,0 +1,52 @@
+.ws-container {
+    display: flex;
+
+    /* Then we define the flow direction 
+     and if we allow the items to wrap 
+   * Remember this is the same as:
+   * flex-direction: row;
+   * flex-wrap: wrap;
+   */
+    flex-flow: row wrap;
+
+    /* Then we define how is distributed the remaining space */
+    justify-content: space-around;
+
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.ws {
+    display: flex;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: 100;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    margin: auto;
+    height: 100px;
+    width: 240px;
+    border: 6px;
+    border-style: outset;
+    border-color: grey;
+    box-shadow: 10px 10px 10px #d1d4fa55;
+    border-radius: 25px;
+
+}
+
+.wk1 {
+    background: linear-gradient(110deg, red, white);
+
+}
+
+.wk2 {
+    background: linear-gradient(110deg, blue, white);
+}
+
+.wk3 {
+    background: linear-gradient(110deg, green, white);
+}

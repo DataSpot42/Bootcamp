@@ -39,14 +39,17 @@
 }
 
 .wk1 {
-    background: linear-gradient(110deg, red, white);
+    background: radial-gradient(rgb(2, 1, 58) 50%, rgb(95, 87, 129) 70%, rgb(231, 231, 234) 100%);
 
 }
 
 .wk2 {
-    background: linear-gradient(110deg, blue, white);
+    background: radial-gradient(rgb(1, 43, 84) 50%, rgb(56, 77, 102) 70%, rgb(231, 231, 234) 100%);
 }
 
 .wk3 {
-    background: linear-gradient(110deg, green, white);
+    background: radial-gradient(rgb(1, 79, 114) 50%, rgb(78, 111, 134) 70%, rgb(231, 231, 234) 100%);
+}
+.wk4 {
+    background: radial-gradient(rgb(1, 114, 101) 50%, rgb(78, 134, 129) 70%, rgb(231, 231, 234) 100%);
 }

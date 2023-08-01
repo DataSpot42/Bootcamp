@@ -3,12 +3,12 @@
 }
 
 body {
-    background-image: url(https://thumbs.gfycat.com/GregariousEssentialElver-size_restricted.gif);
+    background-color: #000000;
     color: white;
     text-align: center;
     margin-top: 0 px;
     top: 0px;
-    /* set the look of page body with a background image */
+    /* set the look of page body with a background colour */
 }
 
 .navDiv {
@@ -153,12 +153,12 @@ h4 {
 
 #intro {
     font-weight: bolder;
-    font-size: 70px;
-    background-image: url(https://i.gifer.com/3Ayf.gif);
+    font-size: 50px;
+    background: radial-gradient(rgb(49, 54, 99) 50%, rgb(182, 182, 239) 100%);
     margin-left: auto;
     margin-right: auto;
     margin-top: 100px;
-    width: 65%;
+    width: 50%;
     border: 5px;
     border-color: rgb(123, 123, 212);
     border-style: solid;
@@ -217,11 +217,11 @@ a:active {
     margin: auto;
     font-style: italic;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: deepskyblue;
+    color: rgb(235, 246, 250);
     padding: 10px;
     border: 1px solid aquamarine;
-    background: radial-gradient(rgb(11, 31, 206) 50%, rgb(125, 125, 187) 100%);
-    box-shadow: 10px 10px 10px #7FFFD455;
+    background: radial-gradient(rgb(49, 54, 99) 70%, rgb(182, 182, 239) 100%);
+    box-shadow: 10px 10px 10px #bdb9fb55;
     border-radius: 25px;
     /* set parameters for lists class */
 }
@@ -258,11 +258,11 @@ hr {
     margin: auto;
     font-style: italic;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: deepskyblue;
+    color: rgb(235, 246, 250);
     padding: 10px;
     border: 1px solid aquamarine;
-    background: radial-gradient(rgb(11, 31, 206) 50%, rgb(125, 125, 187) 100%);
-    box-shadow: 10px 10px 10px #7FFFD455;
+    background: radial-gradient(rgb(49, 54, 99) 70%, rgb(182, 182, 239) 100%);
+    box-shadow: 10px 10px 10px #bdb9fb55;
     border-radius: 25px;
     /* set parameters for sidebyside class (same as lists but puts blocks sibe by side */
 }
@@ -276,11 +276,11 @@ hr {
     margin-left: 40px;
     font-style: italic;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: rgb(190, 241, 223);
+    color: rgb(235, 246, 250);
     padding: 10px;
     border: 1px solid rgb(3, 95, 7);
-    background: radial-gradient(rgb(3, 119, 19) 50%, rgb(200, 243, 204) 100%);
-    box-shadow: 10px 10px 10px #93d49855;
+    background: radial-gradient(rgb(49, 54, 99) 70%, rgb(182, 182, 239) 100%);
+    box-shadow: 10px 10px 10px #bdb9fb55;
     border-radius: 25px;
     /* set parameters for sidebyside class (same as lists but puts blocks sibe by side */
 }

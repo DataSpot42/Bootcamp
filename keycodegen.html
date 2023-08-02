@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="google-site-verification" content="aUUW71FJ9tbfikCLCvRLIchfsEHn0gjJUt1-O6BuLgI" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Steve's Bootcamp Homepage</title> <!--From boilerplate template!-->
+    <title>KeyCodeGen</title> <!--From boilerplate template!-->
     <link rel="stylesheet" href="main.css"> <!--Links external style sheet to page-->
     <link rel="stylesheet" href="wsstyle.css"> <!--Links external style sheet for this page-->
 </head>
@@ -24,14 +24,19 @@
 <br>
     </div>
     <div id= "starttext">
-        <h1>Press Any Key to see it's code and which</h1>
+        <h1 style="color:red">Press Any Key</h1><h1>To see it's code, key and which</h1>
     </div>
     <div>
         <ul class="ws-container" id="boxes">
             <li class="ws wk1"><p class = "boxlink">Keycode:</p><h2 id="keycodeA"></h2></li>
-            <li class="ws wk2"><p class = "boxlink">Which:</p><h2 id="keycodeB"></h2></li>
+            <li class="ws wk2"><p class = "boxlink"></p><h1 style="font-size: 80px" id="keycodeC"></h1></li>
+            <li class="ws wk3"><p class = "boxlink">Which:</p><h2 id="keycodeB"></h2></li>
             
         </ul>
+        <div id="boxes2">
+            <br>
+        <h2>Here is the keycode, the actual key pressed and the which (ASCII/UNICODE) for that key</h2>
+        </div>   
     </div> 
     <script src="app.js"></script>
 </body>        

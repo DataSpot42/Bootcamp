@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="google-site-verification" content="aUUW71FJ9tbfikCLCvRLIchfsEHn0gjJUt1-O6BuLgI" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DrumKit</title> <!--From boilerplate template!-->
+    <link rel="stylesheet" href="main.css"> <!--Links external style sheet to page-->
+    <link rel="stylesheet" href="wsstyle.css"> <!--Links external style sheet for this page-->
+    <style>
+
+    body {
+        background-image: url('https://c4.wallpaperflare.com/wallpaper/602/59/819/drum-drums-musical-instrument-stage-wallpaper-preview.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+      }
+</style>      
+</head>
+
+<body>
+    <audio id="boom"><source src="sounds/boom.wav" type="audio/wav"></audio>
+    <audio id="clap"><source src="sounds/clap.wav" type="audio/wav"></audio>
+    <audio id="hihat"><source src="sounds/hihat.wav" type="audio/wav"></audio>
+    <audio id="kick"><source src="sounds/kick.wav" type="audio/wav"></audio>
+    <audio id="openhat"><source src="sounds/openhat.wav" type="audio/wav"></audio>
+    <audio id="ride"><source src="sounds/ride.wav" type="audio/wav"></audio>
+    <audio id="snare"><source src="sounds/snare.wav" type="audio/wav"></audio>
+    <audio id="tink"><source src="sounds/tink.wav" type="audio/wav"></audio>
+    <audio id="torn"><source src="sounds/tom.wav" type="audio/wav"></audio>
+    <nav class="mainNavBar-container">
+
+        <p class="mainNavItem"><a class="boxlink" href="index.html">Home</a></p>
+        <p class="mainNavItem"><a class="boxlink" href="portfolio2.html">Portfolio</a></p>
+        <p class="mainNavItem"><a class="boxlink" href="contact.html">Contact Me</a></p>
+        <p class="mainNavItem"><a class="boxlink" href="workshops.html">Assignments</a></p>
+        <p class="mainNavItem">TBC</p>
+    </nav>
+    <br>
+    <br>
+    <div>
+        <h2>Welcome to my Drum Kit Soundboard. The keys are indicated below, or press buttons with your mouse.</h2>
+        <h3>Make sure CAPSLOCK is not on</h3>
+    </div>
+    
+    <div id="middle">
+        <ul class="drum-container" id="boxes">
+            <button class="drums drumBoom" id="Boom">y:BOOM</button>
+            <button class="drums drumHiHat" id="HiHat">u:HIHAT</button>
+            <button class="drums drumClap" id="Clap">i:CLAP</button>
+            <h4 class="break"></h4>
+            <button class="drums drumRide" id="Ride">h:RIDE</button>
+            <button class="drums drumOpenHat" id="OpenHat">j:OPENHAT</button>
+            <button class="drums drumSnare" id="Snare">k:SNARE</button>
+            <h6 class="break"></h6>
+            <button class="drums drumTorn" id="Torn">b:TORN</button>
+            <button class="drums drumKick" id="Kick">n:KICK</button>
+            <button class="drums drumTink" id="Tink">m:TINK</button>
+            
+           
+
+            
+            
+        </ul>    
+
+<div>
+    <h2 id="capslock" style="color: red">CAPS LOCK IS ON!</h2>
+</div>
+<script src="appDrum.js"></script>
+</body>

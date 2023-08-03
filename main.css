@@ -90,45 +90,7 @@ body {
 
 }
 
-.box1 {
-    background: radial-gradient(rgb(127, 134, 196) 50%, rgb(236, 236, 240) 100%);
-}
 
-.box2 {
-    background: radial-gradient(rgb(81, 220, 111) 50%, rgb(236, 236, 240) 100%);
-}
-
-.box3 {
-    background: radial-gradient(rgb(221, 60, 186) 50%, rgb(236, 236, 240) 100%);
-}
-
-.box4 {
-    background: radial-gradient(rgb(143, 171, 18) 50%, rgb(236, 236, 240) 100%);
-}
-
-.box5 {
-    background: radial-gradient(rgb(168, 23, 23) 50%, rgb(236, 236, 240) 100%);
-}
-
-.box6 {
-    background: radial-gradient(rgb(127, 20, 185) 50%, rgb(236, 236, 240) 100%);
-}
-
-.box7 {
-    background: radial-gradient(rgb(104, 209, 13) 50%, rgb(236, 236, 240) 100%);
-}
-
-.box8 {
-    background: radial-gradient(rgb(153, 8, 49) 50%, rgb(236, 236, 240) 100%);
-}
-
-.box9 {
-    background: radial-gradient(rgb(208, 126, 18) 50%, rgb(236, 236, 240) 100%);
-}
-
-.box10 {
-    background: radial-gradient(rgb(3, 14, 121) 50%, rgb(236, 236, 240) 100%);
-}
 
 .bannertext {
     font-size: 15px;

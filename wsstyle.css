@@ -28,13 +28,14 @@
     align-items: center;
     padding: 10px 0;
     margin: auto;
+    margin-bottom: 20px;
     height: 100px;
     width: 320px;
     border: 6px;
     border-style: outset;
     border-color: grey;
     box-shadow: 10px 10px 10px #d1d4fa55;
-    border-radius: 25px;
+    border-radius: 45px;
 
 }
 
@@ -51,117 +52,25 @@
     background: radial-gradient(rgb(1, 79, 114) 50%, rgb(78, 111, 134) 70%, rgb(231, 231, 234) 100%);
 }
 .wk4 {
-    background: radial-gradient(rgb(1, 114, 101) 50%, rgb(78, 134, 129) 70%, rgb(231, 231, 234) 100%);
+    background: radial-gradient(rgb(4, 60, 192) 50%, rgb(114, 143, 221) 70%, rgb(231, 231, 234) 100%);
 }
 
-.drum-container {
-    display: flex;
+    
+    .button:hover, .button:focus {
+      
+      transform: translateY(-6px);
+      
+      box-shadow: 15px 15px 15px #d1d4fa55;
+    }
+    
+      button::after {    
+       
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        
+      }
 
-    /* Then we define the flow direction 
-     and if we allow the items to wrap 
-   * Remember this is the same as:
-   * flex-direction: row;
-   * flex-wrap: wrap;
-   */
-    flex-flow: row wrap;
-    
-    /* Then we define how is distributed the remaining space */
-    justify-content: space-evenly;
-    border: solid white ;
-    border: 10px;
-    padding: 0;
-    align-items: center;
-    margin-top: 10%;
-    margin-left: 27%;
-    margin-right: 15%;
-    margin-bottom: 5%;
-    max-width: 700px;
-    
-}
-.drums {
-        display: flex;
-        flex: 0 0 20%; margin: 1px;
-        font-size: 20px;
-        font-family: sans-serif;
-        text-align: center;
-        font-weight: 100;
-        justify-content: center;
-        align-items: center;
-        padding: 10px 0;
-        margin: auto;
-        width: 180px;
-        height: 100px;
-        max-height: 80px;
-        max-width: 180px;
-        border: 6px;
-        border-style: outset;
-        border-color: grey;
-        box-shadow: 10px 10px 10px #d1d4fa55;
-        border-radius: 55px;
-}
-.drumBoom {
-    color : white;
-    font-weight: 100;
-    font-size: 150%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background: radial-gradient(rgb(205, 8, 236) 50%, rgb(125, 47, 149) 60%, rgb(155, 136, 166) 80px);
-}
-.drumHiHat {
-    color : white;
-    font-weight: 100;
-    font-size: 150%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background: radial-gradient(rgb(205, 8, 236) 50%, rgb(125, 47, 149) 60%, rgb(155, 136, 166) 80px);
-}
-.drumKick {
-    color : white;
-    font-weight: 100;
-    font-size: 150%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background: radial-gradient(rgb(205, 8, 236) 50%, rgb(125, 47, 149) 60%, rgb(155, 136, 166) 80px);
-}    
-.drumOpenHat {
-    color : white;
-    font-weight: 100;
-    font-size: 130%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background: radial-gradient(rgb(205, 8, 236) 50%, rgb(125, 47, 149) 60%, rgb(155, 136, 166) 80px);
-}
-.drumClap {
-    color : white;
-    font-weight: 100;
-    font-size: 150%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background: radial-gradient(rgb(205, 8, 236) 50%, rgb(125, 47, 149) 60%, rgb(155, 136, 166) 80px);
-}
-.drumTink {
-    color : white;
-    font-weight: 100;
-    font-size: 150%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background: radial-gradient(rgb(205, 8, 236) 50%, rgb(125, 47, 149) 60%, rgb(155, 136, 166) 80px);
-}
-.drumTorn {
-    color : white;
-    font-weight: 100;
-    font-size: 150%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background: radial-gradient(rgb(205, 8, 236) 50%, rgb(125, 47, 149) 60%, rgb(155, 136, 166) 80px);
-}
-.drumSnare {
-    color : white;
-    font-weight: 100;
-    font-size: 150%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background: radial-gradient(rgb(205, 8, 236) 50%, rgb(125, 47, 149) 60%, rgb(155, 136, 166) 80px);
-}
-.drumRide {
-    color : white;
-    font-weight: 100;
-    font-size: 150%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background: radial-gradient(rgb(205, 8, 236) 50%, rgb(125, 47, 149) 60%, rgb(155, 136, 166) 80px);
-}
 .break {
     flex-basis: 100%;
     height: 0;

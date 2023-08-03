@@ -116,7 +116,7 @@
 .drumKick {
     color : white;
     font-weight: 100;
-    ffont-size: 150%;
+    font-size: 150%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background: radial-gradient(rgb(205, 8, 236) 50%, rgb(125, 47, 149) 60%, rgb(155, 136, 166) 80px);
 }    

@@ -1,0 +1,218 @@
+.local {
+    border: 1px solid #710dea;
+    padding: 25px;
+    width: 90%;
+    height: 20%;
+    text-align: center;
+    display: inline-block;
+    margin: auto;
+    color: aliceblue;
+}
+body {
+    cursor: crosshair;
+    background-color: black;
+
+}
+.starfield {
+    background-image: url(images/starfield.jpg);
+    
+    width: 100%;
+    height: 900px;
+    
+}
+
+.global {
+    color: rgb(91, 54, 54);
+    
+}
+.welcome {
+    display: block;
+    width: 800px;
+    height: 300px;
+    border: solid;
+    border-color: blueviolet;
+    margin: auto;
+    color: aqua;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.war {
+    border: 10px solid #e2f700;
+    background: #e2f700;
+    box-shadow: 10px 10px 5px #EEEEEE75;
+    border-radius: 25px;
+    width: 350px;
+    height: 300px;
+    margin: auto;
+    color: black;
+    
+}
+.viewscreen {
+    height:30px;
+    width: 330px;
+    margin:auto;
+    color: black;
+    background-color: #e2f700;
+}
+.pulse {
+    animation: pulse-animation 2s infinite;
+  }
+  @keyframes pulse-animation {
+    0% {
+      box-shadow: 0 0 0 0px rgba(135, 40, 40, 0.644);
+      opacity: 0.2;
+    }
+    80% {
+      box-shadow: 0 0 0 15px rgba(210, 8, 8, 0.253);
+      opacity: 1;
+    }
+    100% {
+        box-shadow: 0 0 300 20px rgba(210, 8, 8, 0.018);
+        opacity: 0.1;
+      }
+  }  
+.LCARSBut {
+    display: flex;
+    color: black;
+    background-color: #e2f700;
+    width: 230px;
+    font-size: 20px;
+}
+
+.st-container {
+    display: flex;
+
+    /* Then we define the flow direction 
+     and if we allow the items to wrap 
+   * Remember this is the same as:
+   * flex-direction: row;
+   * flex-wrap: wrap;
+   */
+    flex-flow: row wrap;
+
+    /* Then we define how is distributed the remaining space */
+    justify-content:flex-start;
+
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    height: 100%;
+    width: 100%;
+}
+
+.LCARSbox {
+    display: flex;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: 100;
+    justify-content: center;
+    align-items:flex-start;
+    padding: 10px 0;
+    
+    margin-bottom: 20px;
+    height: 800px;
+    width: 20%;
+    border: 6px;
+    border-style: outset;
+    border-color: grey;
+    box-shadow: 10px 10px 10px #d1d4fa55;
+    border-radius: 45px;
+
+}
+.starbox {
+    display: flex;
+    color: white;
+    background-image: url("images/starfield.jpg");
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: 100;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    margin: auto;
+    margin-bottom: 20px;
+    height: 800px;
+    width: 75%;
+    border: 6px;
+    border-style: outset;
+    border-color: grey;
+    box-shadow: 10px 10px 10px #d1d4fa55;
+    border-radius: 45px;
+
+}
+.LCARSCont {
+    display: block;
+    margin-top: 0px;
+    align-items: baseline;
+    font-size: 40px;
+}
+
+.menu-container {
+    display: flex;
+
+    /* Then we define the flow direction 
+     and if we allow the items to wrap 
+   * Remember this is the same as:
+   * flex-direction: row;
+   * flex-wrap: wrap;
+   */
+    flex-flow: row wrap;
+
+    /* Then we define how is distributed the remaining space */
+    justify-content:flex-start;
+
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    height: 50%;
+    width: 70%
+}
+
+.menu1 {
+    display: flex;
+    color: black;
+    background-color: #e2f700;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: 100;
+    justify-content: center;
+    align-items:center;
+    padding: 10px 0;
+    
+    margin-bottom: 20px;
+    height: 100px;
+    width: 40%;
+    border: 6px;
+    border-style: outset;
+    border-color: grey;
+    box-shadow: 10px 10px 10px #d1d4fa55;
+    border-radius: 45px;
+
+}
+.menu2 {
+    display: flex;
+    color: black;
+    background-color: #e2f700;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: 100;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    margin: auto;
+    margin-bottom: 20px;
+    height: 100px;
+    width: 40%;
+    border: 6px;
+    border-style: outset;
+    border-color: grey;
+    box-shadow: 10px 10px 10px #d1d4fa55;
+    border-radius: 45px;
+
+}
+

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Trek Game Prototype</title>
+    <link rel="stylesheet" href="ftnstyle.css"> <!--Links external style sheet for this page-->
+    
+</head>
+<body>
+    <audio id="redSound"><source src="sounds/scanner.wav" loop autoplay type="audio/wav"></audio>
+    <audio id="fireSound"><source src="sounds/tng_phaser_strike.wav" loop autoplay type="audio/wav"></audio>
+    
+    <div class="startbutton">
+        <input id="button" class= "LCARSBut" type="submit" name="button" value="Press to Start Scanning"/>
+
+    </div>
+    <div>
+      <ul class="st-container">
+          <div class="LCARSbox">
+            <div>
+        
+              <h2 class="LCARSCont">
+                LOCK STATUS:
+                <br />
+                <b><span id="global-mouse-pos"></span></b>
+                
+              </h2>
+              <p id="warbird"></p>
+            </div>
+            </div>
+
+
+          <p class="starbox" id="starBox">This is the scanner</p>
+
+      </ul>
+    </div>
+    <div>
+        
+
+    
+
+
+
+<script src="appftn.js"></script>
+</body>
+</html>
+
+

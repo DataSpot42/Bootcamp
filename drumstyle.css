@@ -71,11 +71,7 @@
     border: 10px;
     padding: 0;
     align-items: center;
-    margin-top: 10%;
-    margin-left: 32%;
-    margin-right: 15%;
-    margin-bottom: 5%;
-    max-width: 700px;
+   
     
 }
 .drums {
@@ -170,7 +166,9 @@
     font-size: 0%;
   }
 .middle {
+    
     width: 70%;
+    
 }  
 .redalert {
     width: 250px;

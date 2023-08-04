@@ -72,7 +72,7 @@
     padding: 0;
     align-items: center;
     margin-top: 10%;
-    margin-left: 27%;
+    margin-left: 32%;
     margin-right: 15%;
     margin-bottom: 5%;
     max-width: 700px;
@@ -97,7 +97,8 @@
         border-style: outset;
         border-color: grey;
         box-shadow: 10px 10px 10px #d1d4fa55;
-        border-radius: 55px;
+        border-radius: 45px;
+        margin-bottom: 15px
 }
 .drumBoom {
     color : white;
@@ -171,3 +172,25 @@
 .middle {
     width: 70%;
 }  
+.redalert {
+    width: 250px;
+    margin: auto;
+}
+
+.pulse {
+    animation: pulse-animation 2s infinite;
+  }
+  @keyframes pulse-animation {
+    0% {
+      box-shadow: 0 0 0 0px rgba(135, 40, 40, 0.644);
+      opacity: 0.2;
+    }
+    80% {
+      box-shadow: 0 0 0 15px rgba(210, 8, 8, 0.253);
+      opacity: 1;
+    }
+    100% {
+        box-shadow: 0 0 300 20px rgba(210, 8, 8, 0.018);
+        opacity: 0.1;
+      }
+  }  

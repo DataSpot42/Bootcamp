@@ -77,9 +77,9 @@ let drumSound = ""
 
     const buttonSpinning = [
       { transform: "rotate(0deg)" },
-      { transform: "scale(1.5) rotate(20deg)" },
-      { transform: "scale(1.6) rotate(-30deg)" },
-      { transform: "scale(1.2) rotate( 130deg)" },
+      { transform: "scale(1.3) rotate(20deg)" },
+      { transform: "scale(1.5) rotate(-30deg)" },
+      { transform: "scale(1.3) rotate( 30deg)" },
     ];
     
     const buttonTiming = {
@@ -87,8 +87,8 @@ let drumSound = ""
       iterations: 10,
     };
     const buttonGrowing = [
-      { transform: "scale(2) rotate(3deg)"},
-      { transform: "scalre(2.5) rotate(-6deg)"}
+      { transform: "scale(2) rotate(10deg)"},
+      { transform: "scalre(2.8) rotate(-10deg)"}
   ];
    const buttonWidening = [
       { transform: "scale(1.4) scalex(2) rotate(2deg)"},

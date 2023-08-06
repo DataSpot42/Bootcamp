@@ -32,7 +32,9 @@ function countdown() {
   } else {
     elem.innerHTML = timeLeft;
     elem2.innerHTML = 'seconds remaining';
+    
     timeLeft--;
+    (timeLeft < 0) ? timeLeft = 0 : null;
   }
 }
 

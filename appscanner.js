@@ -10,7 +10,7 @@ let randy = undefined;
 let nearbyx = undefined;
 let nearbyy = undefined;
 let nearbytot = undefined;
-let lockstatus = "No Lock";
+let lockstatus = "";
 let phasers = undefined;
 let locked = false;
 let mx = undefined;
@@ -69,9 +69,9 @@ window.addEventListener('mousemove', (event) => {
     red.volume = 1-nearbytot/1000;
     
     
-  globalMousePosText.textContent = `(${lockstatus})`;
+  globalMousePosText.textContent = `${lockstatus}`;
   if (nearbytot <= 100) {
-    lockstatus = "LOCKED! Press Button to Fire!!";
+    lockstatus = "LOCKED!";
     locked = true;
     targetLocked.play();
     var mouseDown = 0;
@@ -89,7 +89,7 @@ window.addEventListener('mousemove', (event) => {
     my = globalMousePos.y;
     document.getElementById("warbird").innerHTML = '<p class="LCARSresult">LCARS VIEWSCREEN<img class="war" src="images/warbirdfight.gif"></p>';
     win = true;
-    setTimeout(() => document.getElementById("warbird").innerHTML = '<h2 class="war">LCARS VIEWSCREEN WARBIRD DESROYED!</h2>' , 6400) ;
+    setTimeout(() => document.getElementById("warbird").innerHTML = '<h2 class="war"></h2>' , 6400) ;
     setTimeout(() => window.location.replace("stend.html"), 9000) ;
   }}
     
@@ -97,7 +97,7 @@ window.addEventListener('mousemove', (event) => {
     
 
 
-  } else {lockstatus="No Lock"}
+  } else {lockstatus=""}
 
 
 });

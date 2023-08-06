@@ -217,9 +217,10 @@ body {
     border-width: 5px;
     border-color: aquamarine;
     border-radius: 10px;
-    color: rgb(0, 0, 0);
-    
-    justify-content: left;
+    color: rgb(5, 5, 5);
+    font-family: fantasy;
+    font-size: 230%;
+    justify-content: center;
 
 }
 .LCARSalertdiv {
@@ -323,6 +324,26 @@ body {
     }
     100% {
         box-shadow: 0 0 300 20px rgba(210, 8, 8, 0.018);
+        opacity: 0.1;
+      }
+  }
+
+  .pulse2 {
+    color: red;
+    animation: pulse-animation2 1s infinite;
+  }
+
+  @keyframes pulse-animation2 {
+    0% {
+      box-shadow: 0 0 0 0px rgba(135, 40, 40, 0.644);
+      opacity: 0.2;
+    }
+    80% {
+      box-shadow: 0 0 0 0px rgba(210, 8, 8, 0.253);
+      opacity: 1;
+    }
+    100% {
+        box-shadow: 0 0 300 0px rgba(210, 8, 8, 0.018);
         opacity: 0.1;
       }
   }

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LCARS Scanner</title>
+    <link rel="stylesheet" href="scannerstyle.css"> <!--Links external style sheet for this page-->
+</head>
+<body>
+    <audio id="cloaksound"><source src="sounds/cloakingsound.wav" loop autoplay type="audio/wav"></audio>
+    <audio id="redsound"><source src="sounds/redalert.mp3" loop autoplay type="audio/mp3"></audio>
+    <audio id="redSound"><source src="sounds/scanner.wav" loop autoplay type="audio/wav"></audio>
+    <audio id="fireSound"><source src="sounds/tng_phaser_strike.wav" loop autoplay type="audio/wav"></audio>
+    <audio id="lockedSound"><source src="sounds/locked.wav" loop autoplay type="audio/wav"></audio>
+    <audio id="abandon"><source src="sounds/picabandon.wav" loop autoplay type="audio/wav"></audio>
+    
+    <div>
+       <div class="LCARS-container">
+            
+              <div class="LCARS-container1">
+          
+                <div class="LCARSdefault LCARSyellow"></div>
+                <div class="LCARSdefault LCARSorange"><div class="bigTime" id="countdown"></div><h3 id="countdown2"></h3></div>
+                <div class="LCARSdefault LCARSlblue"><h2 class="LCARSCont">
+                    LOCK STATUS:
+                    <br />
+                    <b><span id="global-mouse-pos"></span></b>
+                    
+                  </h2></div>
+                
+                <div class="LCARSdefault LCARSyellow2"><div id="redalerttext"></div></div>
+                  
+              </div>
+              
+              
+        <div class="LCARS-container2">
+
+            <div class="LCARSyellowstripe"><div class="tblock">TACYON SCANNER</div></div>
+            
+            <div class="LCARSscreen">
+              <div class="viewscreen" id="viewscreen"><p id="starBox">This is the scanner</p><p id="warbird"><p id="war"></p></p></div>
+            </div>
+            
+              
+            
+            <div class="LCARSyellowstripe"></div>
+            </div>
+        
+            </div>
+      </div>
+    </div>   
+      
+
+
+    <script src="appscanner.js"></script>
+</body>
+</html>

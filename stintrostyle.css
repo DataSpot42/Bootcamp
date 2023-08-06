@@ -1,0 +1,300 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    cursor: crosshair;
+    background-color: black;
+    height: 99%;
+    width: 99%;
+    
+    
+
+}
+
+
+
+
+
+.LCARS-container {
+    display: flex;
+    flex-flow:nowrap;
+    flex-direction: row;
+    
+    
+   
+    justify-content:center;
+    
+    width: 95vw;
+    height: 95vh;
+    padding: 0;
+    margin: 0;
+    
+}
+.LCARSdefault {
+    font-size: 150%;
+    font-family:fantasy;
+   
+    padding-right:1vh;
+    margin-bottom: 5px;
+}
+
+.LCARS-container1 {
+    
+    display: flex;
+    flex-direction: column;
+    color: white;
+    
+    font-size: 80%;
+    align-items:left;
+    text-align: left;
+    font-weight: 100;
+    justify-content: left;
+    width: 10vw;
+    
+    margin-left: 0px ;
+    margin-bottom: 20px;
+    
+    
+    
+    
+
+}
+.LCARS-container2 {
+    
+    padding: 0;
+    margin: 0;
+    flex-grow: 1;
+    height: 90vh;
+    width: 10vw;
+}
+
+.LCARSorange {
+    display: flex;
+    color: black;
+    background-color: #f9bf00;
+    justify-content: right;
+    
+    align-items:end;
+    margin-left: 0;
+    flex-grow: 0.2;   
+}
+
+.LCARSsalmon {
+    display: flex;
+    color: black;
+    background-color: salmon;
+    justify-content: right;    
+    align-items:end;
+    margin-left: 0;
+    padding-right: 6vh;
+    flex-grow: 3.5;
+    width: 95%;    
+}
+.LCARSsalmon2 {
+    display: flex;
+    color: black;
+    background-color: salmon;
+    justify-content: right;    
+    align-items:end;
+    margin-left: 0;
+    padding-right: 6vh;
+    flex-grow: 3.5;
+    width: 95%;
+    border-top-left-radius: 45px;  
+}    
+.LCARSlblue {
+    display: flex;
+    color: black;
+    background-color: aquamarine;
+    justify-content: right;
+     
+    align-items:end;
+    margin-left: 0;
+    flex-grow: 0.5;    
+}
+.LCARSpink {
+    display: flex;
+    color: black;
+    background-color: pink;
+    justify-content: right;     
+    align-items:end;
+    margin-left: 0;
+    flex-grow: 1.35;
+    width: 120%;
+    border-bottom-left-radius: 35px;
+    
+}
+
+
+.LCARSsalmonstripe {
+    display: flex;
+    color: black;
+    background-color: salmon;    
+    font-size: 20px;
+    font-family: sans-serif;
+    
+    font-weight:bold;
+    font-size: large;
+    justify-content: right;
+    align-items:end;
+    padding: 2px 20px;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-left: 6vh;
+    height: 1.97vh;
+    width: 83vw;
+}
+.LCARSpinkstripe {
+    display: flex;
+    color: black;
+    background-color: pink;
+    font-size: 20px;
+    font-family: sans-serif;
+    
+    font-weight:bold;
+    font-size: large;
+    justify-content: right;
+    align-items:end;
+    padding: 2px 20px;
+    margin: auto;
+    margin-bottom: 8px;
+    margin-left: 6vh;
+    height: 1.95vh;
+    width: 83vw;
+}    
+
+.LCARSscreen {
+    display: flex;
+    color: black;
+    background-color: #000000;    
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    padding: 2px 0;
+    margin-top:0px;
+    margin-left: 0px;
+    height: 61.5%;
+    width: 50vw;
+    margin-bottom: .04vh;
+    border-radius: 25px;
+}
+.viewscreen {
+    width: 180vw;
+    
+    height: 50vh;
+    border: 0px;
+    margin-left: 20vw;
+    margin-right: -10vw;
+    align-items: center;
+    border-style:solid;
+    color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+    justify-content: space-evenly;
+
+}
+.LCARSalertdiv {
+    display: flex;
+    flex-direction: row;
+
+    color: rgb(191, 20, 20);
+    background-color: black;    
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2px 0;
+    margin-top:0px;
+    margin-left: 0px;
+    margin-top: -1vh;
+    height: 10.5%;
+    width: 87.5vw;
+    border-top-left-radius:  25px;
+}
+.redalertstyle {
+    
+    width: 80vw;
+    align-items: center;
+    text-align: center;
+}
+.instructions {
+    display: flex;
+    
+    height: 5%;
+    margin-left: -10vw;
+    text-align: center;
+    color: aquamarine;
+    font-family: fantasy;
+    font-size: 300%;
+    display: flex;
+    flex-direction: row;    
+    background-color: black;    
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2px 0;
+    margin-top:0px;
+    margin-left: 0px;
+    margin-top: -1vh;
+    height: 5.5%;
+    width: 87.5vw;
+    
+  }
+
+
+.LCARSbuttondiv {
+    display: flex;
+    flex-direction: row;
+
+    color: rgb(191, 20, 20);
+    background-color: black;    
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2px 0;
+    margin-top:0px;
+    margin-left: 0px;
+    margin-top: -1vh;
+    height: 26.5%;
+    width: 87.5vw;
+    
+}
+.LCARSBut {
+    display: flex;
+    color: black;    
+    font-size: 20px;
+    font-family: fantasy; 
+    font-weight:bold;
+    font-size: 150%;
+    align-items: center;
+    
+    justify-content: space-evenly;    
+    padding: 2px 20px;
+    margin-right: 10%;
+    margin-bottom: 10px;
+    
+    height: 8vh;
+    width: 15vw;
+    border-radius: 25px;
+}
+.LCARSSalBut {
+    background-color: salmon;
+}
+.LCARSBlueBut {
+    background-color: aquamarine;
+}
+.pulse {
+    animation: pulse-animation 2s infinite;
+  }
+
+  @keyframes pulse-animation {
+    0% {
+      box-shadow: 0 0 0 0px rgba(135, 40, 40, 0.644);
+      opacity: 0.2;
+    }
+    80% {
+      box-shadow: 0 0 0 15px rgba(210, 8, 8, 0.253);
+      opacity: 1;
+    }
+    100% {
+        box-shadow: 0 0 300 20px rgba(210, 8, 8, 0.018);
+        opacity: 0.1;
+      }
+  }

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Intro</title>
+    <link rel="stylesheet" href="stintrostyle.css"> <!--Links external style sheet for this page-->
+</head>
+<body>
+    <audio id="cloaksound"><source src="sounds/cloakingsound.wav" loop autoplay type="audio/wav"></audio>
+    <audio id="redsound"><source src="sounds/redalert.mp3" loop autoplay type="audio/mp3"></audio>
+    <audio id="exitAudio"><source src="sounds/picexit.wav" loop autoplay type="audio/wav"></audio>
+    <audio id="beepAudio"><source src="sounds/computerbeep_48.mp3" loop autoplay type="audio/mp3"></audio>
+    
+    <div>
+       <div class="LCARS-container">
+            
+              <div class="LCARS-container1">
+          
+                <div class="LCARSdefault LCARSorange">04-202308</div>
+                <div class="LCARSdefault LCARSsalmon">.</div>
+                <div class="LCARSdefault LCARSlblue">LCARS ACCESS</div>
+                <div class="LCARSdefault LCARSpink"></div>
+                <div class="LCARSdefault LCARSsalmon2">GCBCW4</div>
+                  
+              </div>
+              
+              
+        <div class="LCARS-container2">
+
+            
+            <div class="LCARSscreen">
+              <div class="viewscreen" id="viewscreen"></div>
+            </div>
+            <div class="LCARSpinkstripe"></div>
+            <div class="LCARSsalmonstripe"></div>
+            <div class="LCARSalertdiv"><div class="redalertstyle"id="redalerttext"></div></div>
+            <div class="instructions" id="inst">Romulan Warbird spotted on long range scanners</div>
+            <div class="LCARSbuttondiv">
+              
+            
+            <input id="scanBut" class= "LCARSBut LCARSSalBut" type="submit" name="button" value="INITIATE SCANNER"/>
+              <input id="exitBut" class= "LCARSBut LCARSBlueBut" type="submit" name="button" value="EXIT"/>
+      
+          
+          </div>
+        
+            </div>
+      </div>
+    </div>   
+      
+
+
+    <script src="appstintro.js"></script>
+</body>
+</html>

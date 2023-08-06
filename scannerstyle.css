@@ -1,0 +1,328 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    cursor: crosshair;
+    background-color: black;
+    height: 99%;
+    width: 99%;
+    
+    
+
+}
+
+.starbox {
+    background-image: url(images/starfield.jpg);
+ 
+}
+
+
+
+
+
+.LCARS-container {
+    display: flex;
+    flex-flow:nowrap;
+    flex-direction: row;
+    
+    
+   
+    justify-content:center;
+    
+    width: 95vw;
+    height: 95vh;
+    padding: 0;
+    margin: 0;
+    
+}
+.LCARSdefault {
+    font-size: 150%;
+    font-family:fantasy;
+   
+    padding-right:1vh;
+    margin-bottom: 5px;
+}
+
+.LCARS-container1 {
+    
+    display: flex;
+    flex-direction: column;
+    color: white;
+    
+    font-size: 80%;
+    align-items:left;
+    text-align: left;
+    font-weight: 100;
+    justify-content: left;
+    width: 10vw;
+    
+    margin-left: 0px ;
+    margin-bottom: 20px;
+    
+    
+    
+    
+
+}
+.LCARS-container2 {
+    
+    padding: 0;
+    margin: 0;
+    flex-grow: 1;
+    height: 91.2vh;
+    width: 10vw;
+}
+
+.LCARSyellow {
+    display: flex;
+    color: black;
+    background-color: rgb(255, 255, 0);
+    justify-content: right;
+    
+    align-items:end;
+    margin-left: 0;
+    flex-grow: 1.7;
+    width: 120%;
+    border-top-left-radius: 35px;   
+}
+
+.LCARSorange {
+    display: flex;
+    color: black;
+    background-color: rgb(232, 140, 10);
+    justify-content: right;    
+    align-items:end;
+    margin-left: 0;
+    padding-right: 6vh;
+    flex-grow: 3.5;
+    width: 95%;    
+}
+.bigTime {
+    
+    font-family: fantasy;
+    font-size: 600%;
+    color: red;
+    margin: auto;
+    text-align: right;
+    justify-content: right;
+    margin-right: -7vw;
+    
+
+}
+
+.LCARSyellow2 {
+    display: flex;
+    color: black;
+    background-color: rgb(255, 255, 0);
+    justify-content: center;    
+    align-items:start;
+    margin-left: 0;
+    padding-right: 6vh;
+    flex-grow: 3.5;
+    width: 95%;
+    border-bottom-left-radius: 45px;  
+}    
+.LCARSlblue {
+    display: flex;
+    color: black;
+    background-color: aquamarine;
+    justify-content: right;
+     
+    align-items:end;
+    margin-left: 0;
+    flex-grow: 0.5;    
+}
+.tblock {
+    border:#000000;
+    color:rgb(0, 0, 0);
+}
+.LCARSresult {
+    display:block;
+    margin:auto;
+    font-family: fantasy;
+    font-size: 20%;
+    background: yellow;
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+    font-size: 10pt;
+    width: 20vw;
+    height: 30vh;
+    border-radius: 35px;
+} 
+.war {
+    
+    width: 19vw;
+    height: 26vh;
+    
+    text-align: center;
+    justify-self: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+}   
+
+
+
+.LCARSyellowstripe {
+    display: flex;
+    color: black;
+    background-color: rgb(255, 255, 0);
+    
+    font-family: fantasy;
+    text-decoration-color: #000000;
+    text-decoration: solid;
+    font-weight:bold;
+    font-size: 120%;
+    justify-content: right;
+    align-items:end;
+    padding: 2px 40px;
+    margin: auto;
+    
+    margin-left: 4vh;
+    height: 2vh;
+    width: 83vw;
+    border-top-right-radius: 3vh;
+    border-bottom-right-radius: 3vh;
+}    
+
+.LCARSscreen {
+    display: flex;
+    color: black;
+    background-color: #000000;    
+    justify-content: left;
+    flex-direction: row;
+    align-items: left;
+    padding: 2px 0;
+    margin-top:0vh;
+    margin-left: 0px;
+    height: 95.5%;
+    width: 100vw;
+    
+    border-radius: 25px;
+}
+.viewscreen {
+    width: 84vw;
+    
+    height: 83vh;
+    background-image: url(images/starfield.jpg);
+    border: 0px;
+    margin-left: 2vw;
+    margin-right:0vw;
+    margin-top: 1.5vh;
+    align-items: left;
+    border-style:solid;
+    border-width: 5px;
+    border-color: aquamarine;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    
+    justify-content: left;
+
+}
+.LCARSalertdiv {
+    display: flex;
+    flex-direction: row;
+
+    color: rgb(191, 20, 20);
+    background-color: black;    
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2px 0;
+    margin-top:0px;
+    margin-left: 0px;
+    margin-top: -1vh;
+    height: 10.5%;
+    width: 87.5vw;
+    border-top-left-radius:  25px;
+}
+.redalertstyle {
+    
+    width: 80vw;
+    align-items: center;
+    text-align: center;
+}
+.instructions {
+    display: flex;
+    
+    height: 5%;
+    margin-left: -10vw;
+    text-align: center;
+    color: aquamarine;
+    font-family: fantasy;
+    font-size: 300%;
+    display: flex;
+    flex-direction: row;    
+    background-color: black;    
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2px 0;
+    margin-top:0px;
+    margin-left: 0px;
+    margin-top: -1vh;
+    height: 5.5%;
+    width: 87.5vw;
+    
+  }
+
+
+.LCARSbuttondiv {
+    display: flex;
+    flex-direction: row;
+
+    color: rgb(191, 20, 20);
+    background-color: black;    
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2px 0;
+    margin-top:0px;
+    margin-left: 0px;
+    margin-top: -1vh;
+    height: 26.5%;
+    width: 87.5vw;
+    
+}
+.LCARSBut {
+    display: flex;
+    color: black;    
+    font-size: 20px;
+    font-family: fantasy; 
+    font-weight:bold;
+    font-size: 150%;
+    align-items: center;
+    
+    justify-content: space-evenly;    
+    padding: 2px 20px;
+    margin-right: 10%;
+    margin-bottom: 10px;
+    
+    height: 8vh;
+    width: 15vw;
+    border-radius: 25px;
+}
+.LCARSSalBut {
+    background-color: salmon;
+}
+.LCARSBlueBut {
+    background-color: aquamarine;
+}
+.pulse {
+    animation: pulse-animation 2s infinite;
+  }
+
+  @keyframes pulse-animation {
+    0% {
+      box-shadow: 0 0 0 0px rgba(135, 40, 40, 0.644);
+      opacity: 0.2;
+    }
+    80% {
+      box-shadow: 0 0 0 15px rgba(210, 8, 8, 0.253);
+      opacity: 1;
+    }
+    100% {
+        box-shadow: 0 0 300 20px rgba(210, 8, 8, 0.018);
+        opacity: 0.1;
+      }
+  }

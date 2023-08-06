@@ -1,5 +1,6 @@
 const globalMousePosText = document.getElementById('global-mouse-pos');
 const localMousePosText = document.getElementById('local-mouse-pos');
+const aban =document.getElementById('abandon');
 let localMousePos = { x: undefined, y: undefined };
 let globalMousePos = { x: undefined, y: undefined };
 let wx = undefined;
@@ -14,6 +15,27 @@ let phasers = undefined;
 let locked = false;
 let mx = undefined;
 let my = undefined;
+let win = false;
+let targetLocked = undefined;
+document.getElementById("redalerttext").innerHTML = '<h2 id="capslock" class="pulse" style="color: red">RED ALERT</h2>'
+const countdowntimer = document.getElementById('countdown');
+var timeLeft = 30;
+var elem = document.getElementById('countdown');
+var elem2 = document.getElementById('countdown2');
+var timerId = setInterval(countdown, 1000);
+
+function countdown() {
+  if (timeLeft == 0 && win == false) {
+    clearTimeout(timerId);
+    aban.play();
+    setTimeout(() => window.location.replace("stfail.html"), 3000) ;
+  } else {
+    elem.innerHTML = timeLeft;
+    elem2.innerHTML = 'seconds remaining';
+    timeLeft--;
+  }
+}
+
 
     
     wx = document.getElementById('starBox').offsetWidth;
@@ -21,7 +43,7 @@ let my = undefined;
     randx = Math.floor(Math.random()*wx);
     randy = Math.floor(Math.random()*wy);
     red = document.getElementById("redSound");
-    
+    targetLocked = document.getElementById('lockedSound');
    red.currentTime = 0;
    red.lopp = true
    
@@ -46,16 +68,18 @@ window.addEventListener('mousemove', (event) => {
     nearbytot = nearbyx + nearbyy;
     red.volume = 1-nearbytot/1000;
     
-
-  globalMousePosText.textContent = `(${localMousePos.x}, ${localMousePos.y}, ${wx}, ${wy}, ${randx}, ${randy} , ${nearbyx}, ${nearbyy}, ${nearbytot}, ${lockstatus})`;
-  if (nearbytot <= 200) {
+    
+  globalMousePosText.textContent = `(${lockstatus})`;
+  if (nearbytot <= 100) {
     lockstatus = "LOCKED! Press Button to Fire!!";
     locked = true;
+    targetLocked.play();
     var mouseDown = 0;
     document.body.onmousedown = function() { 
     ++mouseDown;
     if(mouseDown && nearbytot <= 200){
       if (locked = true){
+      targetLocked.volume = 0;
       phasers = document.getElementById("fireSound");
     phasers.loop = false;
     red.pause();
@@ -63,9 +87,10 @@ window.addEventListener('mousemove', (event) => {
     setTimeout(() => phasers.play(), 2200) ;
     mx = globalMousePos.x;
     my = globalMousePos.y;
-    document.getElementById("warbird").innerHTML = '<h2 class="viewscreen">LCARS VIEWSCREEN</h2><img class="war" src="images/warbirdfight.gif" height="250" width="350">';
+    document.getElementById("warbird").innerHTML = '<p class="LCARSresult">LCARS VIEWSCREEN<img class="war" src="images/warbirdfight.gif"></p>';
+    win = true;
     setTimeout(() => document.getElementById("warbird").innerHTML = '<h2 class="war">LCARS VIEWSCREEN WARBIRD DESROYED!</h2>' , 6400) ;
-    setTimeout(() => window.location.replace("stgamedone.html"), 10000) ;
+    setTimeout(() => window.location.replace("stend.html"), 9000) ;
   }}
     
 }

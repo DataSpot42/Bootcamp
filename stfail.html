@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abandon Ship!</title>
+    <link rel="stylesheet" href="ftnstyle.css"> <!--Links external style sheet for this page-->
+    
+</head>
+<body class="starfield" id="full">
+    <audio id="exitAudio"><source src="sounds/picexit.wav" loop autoplay type="audio/wav"></audio>
+    <audio id="beepAudio"><source src="sounds/computerbeep_48.mp3" loop autoplay type="audio/mp3"></audio>
+    <audio id="bang"><source src="sounds/bang2.mp3" loop autoplay type="audio/mp3"></audio>
+
+    <h1 class="menu.container"></h1>
+    <div>
+        <ul>
+     <div class="failvid" id="explodeship"></div>  
+     <div class="butWind" id="buttons">     
+        <input id="scanBut" class= "LCARSBut LCARSSalBut" type="submit" name="button" value="TIMETRAVEL TO RESTART"/>
+        <input id="exitBut" class= "LCARSBut LCARSBlueBut" type="submit" name="button" value="EXIT"/>
+</div>
+</ul>
+</div>
+
+
+<script src="appstfail.js"></script>
+</body>    

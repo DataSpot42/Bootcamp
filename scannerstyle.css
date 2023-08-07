@@ -31,18 +31,18 @@ body {
    
     justify-content:center;
     
-    width: 95vw;
+    width: 80vw;
     height: 95vh;
     padding: 0;
     margin: 0;
     
 }
 .LCARSdefault {
-    font-size: 150%;
+    
     font-family:fantasy;
    
-    padding-right:1vh;
-    margin-bottom: 5px;
+    
+    
 }
 
 .LCARS-container1 {
@@ -53,12 +53,12 @@ body {
     
     font-size: 80%;
     align-items:left;
-    text-align: left;
+    text-align:center;
     font-weight: 100;
     justify-content: left;
     width: 10vw;
     
-    margin-left: 0px ;
+    margin-left: 0.4% ;
     margin-bottom: 20px;
     
     
@@ -86,23 +86,29 @@ body {
     flex-grow: 1.7;
     width: 120%;
     border-top-left-radius: 35px;   
+    margin-bottom: 5px;
 }
 
 .LCARSorange {
     display: flex;
     color: black;
+    font-size: 120%;
+    font-family: fantasy;
     background-color: rgb(232, 140, 10);
-    justify-content: right;    
+    justify-content: center;    
     align-items:end;
-    margin-left: 0;
+    text-align: center;
+    margin-left: 1;
     padding-right: 6vh;
-    flex-grow: 3.5;
+    flex-grow: 2;
     width: 95%;    
+    margin-bottom: 5px;
+    border-bottom-left-radius: 8%;
 }
 .bigTime {
     
     font-family: fantasy;
-    font-size: 600%;
+    font-size: 700%;
     color: red;
     margin: auto;
     text-align: right;
@@ -123,16 +129,20 @@ body {
     flex-grow: 3.5;
     width: 95%;
     border-bottom-left-radius: 45px;  
+    margin-bottom: 5px;
 }    
 .LCARSlblue {
     display: flex;
     color: black;
+    font-size: 150%;
     background-color: aquamarine;
-    justify-content: right;
-     
-    align-items:end;
+    justify-content: top;
+    text-align: right;
+    align-items:top;
     margin-left: 0;
-    flex-grow: 0.5;    
+    flex-grow: 0.5;  
+    margin-bottom: 5px; 
+    border-top-left-radius: 8% ;
 }
 .tblock {
     border:#000000;
@@ -226,6 +236,7 @@ body {
 .LCARSalertdiv {
     display: flex;
     flex-direction: row;
+    font-size: 150%;
 
     color: rgb(191, 20, 20);
     background-color: black;    
@@ -240,7 +251,7 @@ body {
     border-top-left-radius:  25px;
 }
 .redalertstyle {
-    
+    font-size: 150%;
     width: 80vw;
     align-items: center;
     text-align: center;
@@ -310,6 +321,7 @@ body {
     background-color: aquamarine;
 }
 .pulse {
+    font-size: 250%;
     animation: pulse-animation 2s infinite;
   }
 

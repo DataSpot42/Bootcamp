@@ -1,6 +1,7 @@
 const globalMousePosText = document.getElementById('global-mouse-pos');
 const localMousePosText = document.getElementById('local-mouse-pos');
 const aban =document.getElementById('abandon');
+const fires =document.getElementById('wbFireSnd');
 let localMousePos = { x: undefined, y: undefined };
 let globalMousePos = { x: undefined, y: undefined };
 let wx = undefined;
@@ -19,19 +20,22 @@ let win = false;
 let targetLocked = undefined;
 document.getElementById("redalerttext").innerHTML = '<h2 id="capslock" class="pulse" style="color: red">RED ALERT</h2>'
 const countdowntimer = document.getElementById('countdown');
-var timeLeft = 30;
-var elem = document.getElementById('countdown');
-var elem2 = document.getElementById('countdown2');
-var timerId = setInterval(countdown, 1000);
+let timeLeft = 30;
+let elem = document.getElementById('countdown');
+let elem2 = document.getElementById('countdown2');
+let timerId = setInterval(countdown, 1000);
 
 function countdown() {
   if (timeLeft == 0 && win == false) {
     clearTimeout(timerId);
-    aban.play();
-    setTimeout(() => window.location.replace("stfail.html"), 3000) ;
+    document.getElementById("warbird").innerHTML = '<p class="LCARSresult">LCARS VIEWSCREEN<img class="war" src="images/warbirdfires.gif"></p>';
+    setTimeout(() => fires.play(), 810);
+    
+    setTimeout(() => aban.play(), 850);
+    setTimeout(() => window.location.replace("stfail.html"), 2000) ;
   } else {
     elem.innerHTML = timeLeft;
-    elem2.innerHTML = 'seconds remaining';
+    elem2.innerHTML = 'secs until Warbird fires';
     
     timeLeft--;
     (timeLeft < 0) ? timeLeft = 0 : null;
@@ -99,7 +103,7 @@ window.addEventListener('mousemove', (event) => {
     
 
 
-  } else {lockstatus=""}
+  } else {lockstatus="   "}
 
 
 });

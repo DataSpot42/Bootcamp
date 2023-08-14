@@ -13,8 +13,8 @@ body {
 
 }
 
-.starbox {
-    background-image: url(images/starfield.jpg);
+.starBox {
+    background-image: url(/images/starfield.jpg);
  
 }
 
@@ -217,7 +217,7 @@ body {
     width: 84vw;
     
     height: 83vh;
-    background-image: url(images/starfield.jpg);
+    background-image: url(/images/starfield.jpg);
     border: 0px;
     margin-left: 2vw;
     margin-right:0vw;

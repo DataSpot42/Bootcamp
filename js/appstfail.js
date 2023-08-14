@@ -17,7 +17,7 @@ document.getElementById('exitBut').onclick = function() {
   bang.volume = 0;
   
   exitSound.play();
-  setTimeout(() => window.location.replace("index.html"), 1000)
+  setTimeout(() => window.location.replace("index.html"), 2000)
   }
   
   document.getElementById('scanBut').onclick = function() {

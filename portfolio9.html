@@ -28,22 +28,35 @@
     </nav>
     <div>
         
-        <p id="intro">Portfolio Page Week 5 and 6 <!--website heading-->
+        <p id="intro">Portfolio Page Week 9 <!--website heading-->
 
-            <h1>In week 5 we worked on MongoDB, Higher Order Functions and OOP</h1>
-            <h2>Over week 5 and 6 we completed a task in groups. This involved use of NPM</h2>
-            <h2>Here is the report for this project, which was done in Node and for the console,</h2>
-            <h2> so I am not able to demonstraite it here</h2> 
+            <h1>In Week 9 we did further Backend learning and started the ToDo Full Stack App and a Weather App.  Completed work is on GitHub</h1>
+
+            <h3>Check out my GitHub repo: <a href="https://github.com/DataSpot42" target="_blank" >GitHub</a></h3>
+                <h3>My Weather App Repo is here: <a href=" https://github.com/DataSpot42/weatherapp" target="_blank" >WeatherApp</a></h3>
+            <div class="reactElement"></div>
             
-
+            
+            
 
     
     </p>
 </div>
-<div>
-    <ul class="ws-container">
-        <input type="button" class="ws wk1 button" onclick="window.open('documents/Week5-6TextBasedAdventureGame.pdf','_blank');" value="Week 5/6 - Text Adventure Game">
-</div>
+</script>
+<!-- Load our React component. -->
+<script type="text/babel" src="/WelcomeBack.js"></script>
+
+
+ <!-- Load React. -->
+  <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+  <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+  <!-- The 3rd link is that of Babel, which is needed to compile our React code so it is understood by all browsers". -->
+  <script src='https://unpkg.com/babel-standalone@6.26.0/babel.js'></script>
+ 
+<script type="text/babel">
+    ReactDOM.render(<WelcomeBack />, document.querySelector(".reactElement")) 
+</script>
 
 
 

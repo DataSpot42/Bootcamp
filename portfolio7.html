@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Week 4</title>
+    <title>Portfolio Week 7</title>
     <link rel="stylesheet" href="CSS/main.css"> <!--Links main external style sheet to page-->
-    <link rel="stylesheet" href="css/wsstyle.css"> <!--Adds a special stle sheet for this page-->
+    <link rel="stylesheet" href="CSS/wsstyle.css"> <!--Adds a special stle sheet for this page-->
     <script>
         var presscheck = 0;
     </script>
@@ -28,25 +28,36 @@
     </nav>
     <div>
         
-        <p id="intro">Portfolio Page Week 4 <!--website heading-->
+        <p id="intro">Portfolio Page Week 7 <!--website heading-->
 
-            <h1>This week we have been working on JS DOM. Would you like to play a game?</h1>
-       
+            <h1>In week 7 we are moving onto React JS</h1>
+
+            <h3>Check out my GitHub repo: <a href="https://github.com/DataSpot42" target="_blank" >GitHub</h3>
+
+            <div class="reactElement"></div>
+            
             
 
 
     
     </p>
 </div>
-<div>
-    <ul class="ws-container">
-        
-        <input type="button" class="ws wk4 button" onclick="window.location.replace('stintro.html');" value="Play Game">
-                 
+</script>
+<!-- Load our React component. -->
+<script type="text/babel" src="/WelcomeBack.js"></script>
 
-    </ul>
-</div>
-<h1>Needs some refinement but almost done</h1>
+
+ <!-- Load React. -->
+  <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+  <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+  <!-- The 3rd link is that of Babel, which is needed to compile our React code so it is understood by all browsers". -->
+  <script src='https://unpkg.com/babel-standalone@6.26.0/babel.js'></script>
+ 
+<script type="text/babel">
+    ReactDOM.render(<WelcomeBack />, document.querySelector(".reactElement")) 
+</script>
+
 
 
 </body>

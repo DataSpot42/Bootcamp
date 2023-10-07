@@ -22,6 +22,7 @@
     color: white;
     font-size: 20px;
     font-family: sans-serif;
+    flex-direction: row;
     text-align: center;
     font-weight: 100;
     justify-content: center;
@@ -29,7 +30,7 @@
     padding: 10px 0;
     margin: auto;
     margin-bottom: 20px;
-    height: 100px;
+    height: 70px;
     width: 320px;
     border: 6px;
     border-style: outset;
@@ -52,15 +53,14 @@
     background: radial-gradient(rgb(1, 79, 114) 50%, rgb(78, 111, 134) 70%, rgb(231, 231, 234) 100%);
 }
 .wk4 {
-    background: radial-gradient(rgb(4, 60, 192) 50%, rgb(114, 143, 221) 70%, rgb(231, 231, 234) 100%);
-}
+    background: radial-gradient(rgb(49, 54, 99) 50%, rgb(182, 182, 239) 100%);}
 
     
     .button:hover, .button:focus {
       
       transform: translateY(-6px);
       
-      box-shadow: 15px 15px 15px #d1d4fa55;
+      box-shadow: 15px 15px 15px #f1d1fa55;
     }
     
       button::after {    
@@ -70,6 +70,17 @@
         transform: translate(-50%, -50%);
         
       }
+.punk-container {
+  display: grid;
+  width: 80%;
+  margin: auto;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: 1fr;
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+
+}
+
 
 .break {
     flex-basis: 100%;

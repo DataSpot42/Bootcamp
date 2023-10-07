@@ -13,8 +13,8 @@
     <nav class="mainNavBar-container">
 
         <p class="mainNavItem"><a class="boxlink" href="index.html">Home</a></p>
-        <p class="mainNavItem"><a class="boxlink" href="portfolio5.html">Portfolio</a></p>
-        <p class="mainNavItem"><a class="boxlink" href="contact.html">Contact Me</a></p>
+        <p class="mainNavItem"><a class="boxlink" href="portfolio2.html">Portfolio</a></p>
+        
         <p class="mainNavItem"><a class="boxlink" href="workshops.html">Assignments</a></p>
         <p class="mainNavItem">TBC</p>
     </nav>
@@ -31,8 +31,8 @@
 
     </div>
     <div>
-        <h2>The Bootcamp started on 10th July 2023 and lasts 12 weeks</h2>
-        <h2>I will be adding pages to this site to demonstrate my progress.</h2>
+        <h2>The Bootcamp started on 10th July 2023 and ran for 12 weeks</h2>
+        <h2>Take a look at my portfolio and assignments.  I'll constinue to update.</h2>
         <!-- This next section displays the time and what week I am on-->
         <script type="text/javascript" charset="utf-8">
             let a;
@@ -45,7 +45,10 @@
             setInterval(() => {
                 a = new Date();
                 month = a.getMonth() + 1;
-                time = a.getDate() + '/' + month + '/' + a.getFullYear() + "  " + String(a.getHours()).padStart(2, "0") + ':' + String(a.getMinutes()).padStart(2, "0") + ':' + String(a.getSeconds()).padStart(2, "0");
+                time = a.getDate() + '/' + month + '/' + a.getFullYear() + "  " + 
+                String(a.getHours()).padStart(2, "0") + ':' + 
+                String(a.getMinutes()).padStart(2, "0") + ':' + 
+                String(a.getSeconds()).padStart(2, "0");
                 let timeStamp = 'The current date and time is ' + time;
                 document.getElementById('time').innerHTML = timeStamp;
                 start = new Date("2023-07-10");
@@ -54,7 +57,7 @@
                 week = (Math.floor((t2 - t1) / (24 * 3600 * 1000 * 7)) + 1);
                 let output = ' so I am currently on Week ' + week;
 
-                document.getElementById('week').innerHTML = output;
+               
             }, 1000);
 
 
@@ -66,12 +69,12 @@
         <span id="week"></span>
         <br>
         <br>
-            <h2>Select the <p class="MainNavExample">Bootcamp Portfolio</p> section in the Nav Bar to see how I have been
+            <h2>Select the <p class="MainNavExample">Portfolio</p> section in the Nav Bar to see how I have been
                 getting on.</h2><h2> Or <p class="MainNavExample">Assignments</p> to access my completed assignments.</h2>
     </div>
     <div>
         <h2>Check out my recent game at <p class="MainNavExample">Bootcamp Portfolio</p> Week 4, click on the Nav Bar to take a look</h2>
-        <h3>The last few weeks have been Backend projects and React Apps so are not online yet.</h3>  
+        <h3>The last few weeks have been Backend projects and React Apps, some of which can be sampled in my portfolio</h3>  
         <h3>Check out my GitHub repo: <a href="https://github.com/DataSpot42" target="_blank" >GitHub</h3>
     </div>       
 </body>

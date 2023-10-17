@@ -14,6 +14,9 @@ body {
 .navDiv {
     width: 100%;
 }
+.navSpace {
+    min-height: 20px;
+}
 
 .mainNavBar-container {
     display: flex;
@@ -291,6 +294,14 @@ hr {
     border-radius: 25px;
     box-shadow: 10px 9px 10px #83c7d6;
 }
+.iframe1 {
+    display: flex;
+
+    width: 99vw;
+    height: 96vh;
+}
+
+
 
 /* FOOTER */
 footer {
